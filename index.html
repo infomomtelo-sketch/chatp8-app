@@ -1,1 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatP8 | Practical AI for Real Work</title>
+  <meta
+    name="description"
+    content="ChatP8 is a practical AI assistant for real work, business help, organization, and everyday tasks."
+  />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
 
+  <header class="topbar">
+    <div class="brand-wrap">
+      <div class="brand-badge">P8</div>
+      <div>
+        <h1 class="brand-name">ChatP8</h1>
+        <p class="brand-sub">Practical AI for real work</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">Phase 1 · Text Only</p>
+      <h2>Your calm, useful AI workspace</h2>
+      <p class="hero-copy">
+        Ask ChatP8 about business ideas, writing, operations, planning,
+        forms, support tasks, or everyday decisions.
+      </p>
+    </section>
+
+    <section class="chat-shell">
+      <div id="chat-messages" class="chat-messages">
+        <div class="message ai">
+          <div class="bubble">
+            Hello — I’m ChatP8. How can I help you today?
+          </div>
+        </div>
+      </div>
+
+      <form id="chat-form" class="chat-input-area">
+        <textarea
+          id="user-input"
+          rows="1"
+          placeholder="Type your message here..."
+          aria-label="Type your message"
+        ></textarea>
+        <button id="send-btn" type="submit">Send</button>
+      </form>
+
+      <div class="chat-footer-note">
+        Phase 1 is text-only for speed, clarity, and stability.
+      </div>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
